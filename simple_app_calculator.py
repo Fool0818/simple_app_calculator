@@ -13,3 +13,11 @@ def get_operation_choice():
 
     # Return the user's operation choice.
     return operation_choice
+
+# Define a function that gets a number from the user.
+def get_number(number_label):
+    # Ask the user to enter a number and convert it to float.
+    user_number = float(input(f"Enter {number_label} number: "))
+
+    # Return the number entered by the user.
+    return user_number
